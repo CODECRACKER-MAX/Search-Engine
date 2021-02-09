@@ -67,11 +67,11 @@ def Try_Again():
     Clear_Screen_In_Windows()
     print("Do you want try again y/n ?")
     Y_N = input("Enter your choice: ")
-    if (Y_N == "Y" or Y_N == "y"): # Works Fine !
+    if (Y_N == "Y" or Y_N == "y"): 
         Clear_Screen_In_Windows()
         Welcome()
 
-    elif (Y_N == "N" or Y_N == "n"): # Works Fine !
+    elif (Y_N == "N" or Y_N == "n"): 
         Clear_Screen_In_Windows()
         print("Thank you for using the application, See you soon ;) ")
         print("Exiting..........!")
@@ -79,7 +79,7 @@ def Try_Again():
         os.system(exit(0))
     else:
         Clear_Screen_In_Windows()
-        print("Sorry, I cannot understand you again!, Try Again!") # Works Fine!
+        print("Sorry, I cannot understand you again!, Try Again!")
         time.sleep(2)
         Try_Again()
 
@@ -88,5 +88,3 @@ def Clear_Screen_In_Windows():
     os.system('cls')
 
 Welcome()
-#YoutubeSearchKeyword - https://www.youtube.com/results?search_query=
-#GoogleSearchKeyword - https://www.google.com/search?q=
